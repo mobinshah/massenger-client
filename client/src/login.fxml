@@ -15,6 +15,6 @@
       <Text layoutX="112.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username" />
       <Text layoutX="114.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password" />
       <Text fx:id="txt" layoutX="215.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="234.99999940395355" />
-      <Text fx:id="txt" layoutX="264.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="txt" layoutX="264.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" />
    </children>
 </AnchorPane>

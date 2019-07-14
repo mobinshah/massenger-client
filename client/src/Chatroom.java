@@ -37,14 +37,13 @@ public class Chatroom implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-btnSetting.setOnAction(event -> {
-    try {
-        client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("setting.fxml"))));
-    } catch (IOException e) {
-        e.printStackTrace();
-    }
-});
-        try {
+        btnSetting.setOnAction(event -> {
+            try {
+                client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("setting.fxml"))));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });    try {
             pesonDB pd = new pesonDB();
             Image image = new Image(new FileInputStream(pd.getPerson(Search.Search).get(5)));
             ImageView iv=new ImageView(image);

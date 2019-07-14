@@ -22,7 +22,7 @@
       <TextField fx:id="txtfPassword" layoutX="221.0" layoutY="192.0" prefHeight="26.0" prefWidth="203.0" />
       <Button fx:id="btnPhoto" layoutX="237.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="171.0" text="Select your photo" />
       <TextField fx:id="txtfEmail" layoutX="221.0" layoutY="151.0" prefHeight="26.0" prefWidth="203.0" />
-      <Text fx:id="txtuser" layoutX="246.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="90.31542420387268" />
-      <Text fx:id="txtpass" layoutX="246.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="80.9999942779541" />
+      <Text fx:id="txtuser" layoutX="246.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="90.31542420387268" />
+      <Text fx:id="txtpass" layoutX="246.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="80.9999942779541" />
    </children>
 </AnchorPane>

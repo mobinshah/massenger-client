@@ -57,6 +57,39 @@ preparedStatement.setString(6,user.getImage());
 //        return s;
 //    }
 
+    public void changePass(String login, String newPass) throws Exception{
+        preparedStatement = connection.prepareStatement("update person set pass = ? where username = ?");
+        preparedStatement.setString(1, newPass);
+        preparedStatement.setString(2,Login.username);
+        preparedStatement.executeUpdate();
+    }
+    public void changeFirstname(String login, String newFirstname) throws Exception{
+        preparedStatement = connection.prepareStatement("update person set firstname = ? where username = ?");
+        preparedStatement.setString(1, newFirstname);
+        preparedStatement.setString(2,Login.username);
+        preparedStatement.executeUpdate();
+    }
+    public void changeLastname(String login, String newLastname) throws Exception{
+        preparedStatement = connection.prepareStatement("update person set lastname = ? where username = ?");
+        preparedStatement.setString(1, newLastname);
+        preparedStatement.setString(2,Login.username);
+        preparedStatement.executeUpdate();
+    }public void changeEmail(String login, String newEmail) throws Exception{
+        preparedStatement = connection.prepareStatement("update person set email = ? where username = ?");
+        preparedStatement.setString(1, newEmail);
+        preparedStatement.setString(2,Login.username);
+        preparedStatement.executeUpdate();
+    }
+    public void changeUsername(String login, String newUsername) throws Exception{
+        preparedStatement = connection.prepareStatement("update person set username = ? where username = ?");
+        preparedStatement.setString(1, newUsername);
+        preparedStatement.setString(2,Login.username);
+        preparedStatement.executeUpdate();
+    }
+
+
+
+
     public void deletePerson(String username) throws Exception {
         preparedStatement = connection.prepareStatement("delete from person where username = ?");
         preparedStatement.setString(1, username);
