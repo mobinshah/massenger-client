@@ -25,6 +25,6 @@
       <Button fx:id="btnChengeP" layoutX="450.0" layoutY="126.0" mnemonicParsing="false" text="ChengeP" />
       <Button fx:id="btnChengeE" layoutX="450.0" layoutY="172.0" mnemonicParsing="false" text="ChangeE" />
       <Button fx:id="btnChangeU" layoutX="450.0" layoutY="229.0" mnemonicParsing="false" text="ChangeU" />
-      <Button layoutX="397.0" layoutY="301.0" mnemonicParsing="false" text="back" />
+      <Button fx:id="btnback" layoutX="397.0" layoutY="301.0" mnemonicParsing="false" text="back" />
    </children>
 </AnchorPane>

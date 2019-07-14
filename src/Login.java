@@ -23,11 +23,12 @@ public class Login implements Initializable {
     TextField txtfpassword ;
     @FXML
     Text txt;
+    public static String username;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btnlogin.setOnAction(event -> {
             {
-              String username = txtfusername.getText();
+            username = txtfusername.getText();
 
               String password = txtfpassword.getText();
                 try {

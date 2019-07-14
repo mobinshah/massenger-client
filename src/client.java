@@ -22,6 +22,7 @@ public class client extends Application{
              dos =new DataOutputStream(socket.getOutputStream());
              dis = new java.io.DataInputStream(socket.getInputStream());
         launch();
+
     }
 
     @Override

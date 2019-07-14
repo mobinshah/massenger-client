@@ -9,7 +9,7 @@
    <children>
       <TextField fx:id="txtfMessege" layoutX="73.0" layoutY="341.0" prefHeight="26.0" prefWidth="437.0" />
       <Button fx:id="btnEmoji" layoutX="48.0" layoutY="341.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="30.0" text="e" />
-      <Button fx:id="btnInformation" layoutX="73.0" layoutY="30.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="101.0" text="information" />
+      <Button fx:id="btnInformation" layoutX="73.0" layoutY="30.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="60.0" text="information" />
       <Button fx:id="btnSetting" layoutX="487.0" layoutY="42.0" mnemonicParsing="false" text="setting" />
       <TextArea fx:id="txta" layoutX="73.0" layoutY="95.0" prefHeight="235.0" prefWidth="490.0" />
       <Button fx:id="btnSend" layoutX="519.0" layoutY="341.0" mnemonicParsing="false" text="send" />

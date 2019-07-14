@@ -40,21 +40,63 @@ public class Setting implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+//        txtfF.setText(Login.username);
+//        System.out.println(Login.username);
+//
+//        txtfP.setText((Login.password));
+//
+//
     btnChangeF.setOnAction(event -> {
+
         String firstname = txtfF.getText();
+        try {
+            pesonDB pesonDB = new pesonDB();
+            pesonDB.changeFirstname(Login.username, firstname);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     });
     btnChangeU.setOnAction(event -> {
         String username = txtfU.getText();
+        try {
+            pesonDB pesonDB =new pesonDB();
+            pesonDB.changeUsername(Login.username , username);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     });
     btnChengeL.setOnAction(event -> {
         String lastname = txtfL.getText();
+    try {
+        pesonDB pesonDB =new pesonDB();
+        pesonDB.changeLastname(Login.username , lastname);
+    }catch (Exception e) {
+        e.printStackTrace();
+    }
 
     });
     btnChengeP.setOnAction(event -> {
         String password = txtfP.getText();
+        try {
+            pesonDB pesonDB =new pesonDB();
+            pesonDB.changePass(Login.username , password);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     });
     btnChengeE.setOnAction(event ->{
         String Email = txtfE.getText();
+        try {
+            pesonDB pesonDB = new pesonDB();
+            pesonDB.changeEmail(Login.username , Email );
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     });
         btnExit.setOnAction(event -> {
 

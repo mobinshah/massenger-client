@@ -57,6 +57,7 @@ public class SingUp implements Initializable {
             ArrayList<String> person11 = new ArrayList<>();
 
             ArrayList<String> person1 = new ArrayList<>();
+            client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Search.fxml"))));
 
 //            person11 = pesonDB.getPerson(username);
 //            person1 = pesonDB.getPerson(pass);
@@ -67,7 +68,7 @@ public class SingUp implements Initializable {
 //                    txtpass.setText(("password not exsist"));
 //                }else {
 //
-//                    server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Search.fxml"))));
+
 //            pesonDB pesonDB = new pesonDB() ;
 //            ArrayList<String> person1 = new ArrayList<>();
 //            person1 = pesonDB.getPerson(username);
