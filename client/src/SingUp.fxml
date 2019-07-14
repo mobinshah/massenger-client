@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SingUp">
+   <children>
+      <Button fx:id="btnBack" layoutX="62.0" layoutY="326.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" text="back" />
+      <Button fx:id="btnNext" layoutX="397.0" layoutY="326.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" text="next" />
+      <Button fx:id="btnExit" layoutX="493.0" layoutY="326.0" mnemonicParsing="false" text="exit" />
+      <Text layoutX="90.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="firstname" />
+      <Text layoutX="90.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lastname" />
+      <Text layoutX="90.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username" />
+      <Text layoutX="105.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" />
+      <Text layoutX="90.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password" />
+      <Text layoutX="104.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="photo" />
+      <TextField fx:id="txtfFirstname" layoutX="221.0" layoutY="32.0" prefHeight="26.0" prefWidth="203.0" />
+      <TextField fx:id="txtfLastname" layoutX="221.0" layoutY="72.0" prefHeight="26.0" prefWidth="203.0" />
+      <TextField fx:id="txtfUsername" layoutX="221.0" layoutY="112.0" prefHeight="26.0" prefWidth="203.0" />
+      <TextField fx:id="txtfPassword" layoutX="221.0" layoutY="192.0" prefHeight="26.0" prefWidth="203.0" />
+      <Button fx:id="btnPhoto" layoutX="237.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="171.0" text="Select your photo" />
+      <TextField fx:id="txtfEmail" layoutX="221.0" layoutY="151.0" prefHeight="26.0" prefWidth="203.0" />
+      <Text fx:id="txtuser" layoutX="246.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="90.31542420387268" />
+      <Text fx:id="txtpass" layoutX="246.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="80.9999942779541" />
+   </children>
+</AnchorPane>

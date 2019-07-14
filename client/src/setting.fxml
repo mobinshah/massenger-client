@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Setting">
+   <children>
+      <Button fx:id="btnExit" layoutX="469.0" layoutY="301.0" mnemonicParsing="false" text="exit" />
+      <Text layoutX="54.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="firstname" wrappingWidth="81.99999475479126" />
+      <Text layoutX="53.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password" />
+      <Text layoutX="66.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" />
+      <Text layoutX="51.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username" />
+      <Text layoutX="54.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lastname" />
+      <TextField fx:id="txtfF" layoutX="204.0" layoutY="35.0" />
+      <TextField fx:id="txtfL" layoutX="204.0" layoutY="77.0" />
+      <TextField fx:id="txtfP" layoutX="204.0" layoutY="126.0" />
+      <TextField fx:id="txtfE" layoutX="204.0" layoutY="173.0" />
+      <TextField fx:id="txtfU" layoutX="204.0" layoutY="229.0" />
+      <Text layoutX="65.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="photo" />
+      <Button fx:id="btnS" layoutX="234.0" layoutY="290.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="90.0" text="select photo" />
+      <Button fx:id="btnChangeF" layoutX="450.0" layoutY="35.0" mnemonicParsing="false" text="changeF" />
+      <Button fx:id="btnChengeL" layoutX="450.0" layoutY="77.0" mnemonicParsing="false" text="chengeL" />
+      <Button fx:id="btnChengeP" layoutX="450.0" layoutY="126.0" mnemonicParsing="false" text="ChengeP" />
+      <Button fx:id="btnChengeE" layoutX="450.0" layoutY="172.0" mnemonicParsing="false" text="ChangeE" />
+      <Button fx:id="btnChangeU" layoutX="450.0" layoutY="229.0" mnemonicParsing="false" text="ChangeU" />
+      <Button layoutX="397.0" layoutY="301.0" mnemonicParsing="false" text="back" />
+   </children>
+</AnchorPane>
