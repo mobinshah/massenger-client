@@ -40,7 +40,7 @@ public class Login implements Initializable {
                         if (password.equals(person1.get(1))) {
                             client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Search.fxml"))));
                         }else{
-                            if (!password.equals(person1.get(1))){
+                            if (!password.equals(safely.decrypt(person1.get(1)))){
                                 txt.setText("information does not exist ");
                             }
 

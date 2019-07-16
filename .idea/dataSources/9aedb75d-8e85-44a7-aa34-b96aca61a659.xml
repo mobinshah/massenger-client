@@ -8,7 +8,7 @@
       <ObjectId>16385</ObjectId>
       <StateNumber>556</StateNumber>
       <Owner>massenger</Owner>
-      <IntrospectionStateNumber>642</IntrospectionStateNumber>
+      <IntrospectionStateNumber>676</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|16387|16389|1
@@ -125,7 +125,7 @@ sequence|table|16421|16423|1
       <Comment>standard public schema</Comment>
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>643</IntrospectionStateNumber>
+      <IntrospectionStateNumber>677</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -97049,25 +97049,19 @@ umserver</ColNames>
       <StateNumber>622</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15055" parent="4734" name="pmsend">
-      <Position>4</Position>
-      <DataType>text|0s</DataType>
-      <StateNumber>622</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="15056" parent="4734" name="pmresive">
+    <column id="15055" parent="4734" name="pmresive">
       <Position>5</Position>
       <DataType>text|0s</DataType>
       <StateNumber>622</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="15057" parent="4734" name="date">
+    <column id="15056" parent="4734" name="date">
       <Position>6</Position>
       <DataType>text|0s</DataType>
       <StateNumber>622</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="15058" parent="4735" name="id">
+    <column id="15057" parent="4735" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -97075,63 +97069,63 @@ umserver</ColNames>
       <DefaultExpression>nextval(&apos;person_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="15059" parent="4735" name="username">
+    <column id="15058" parent="4735" name="username">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>577</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15060" parent="4735" name="pass">
+    <column id="15059" parent="4735" name="pass">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>577</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15061" parent="4735" name="email">
+    <column id="15060" parent="4735" name="email">
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>577</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15062" parent="4735" name="firstname">
+    <column id="15061" parent="4735" name="firstname">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>577</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15063" parent="4735" name="lastname">
+    <column id="15062" parent="4735" name="lastname">
       <Position>6</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>577</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15064" parent="4735" name="photo">
+    <column id="15063" parent="4735" name="photo">
       <Position>7</Position>
       <DataType>varchar(1000)|0s</DataType>
       <StateNumber>577</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="15065" parent="4735" name="person_pkey">
+    <index id="15064" parent="4735" name="person_pkey">
       <ObjectId>16396</ObjectId>
       <StateNumber>577</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <index id="15066" parent="4735" name="person_username_key">
+    <index id="15065" parent="4735" name="person_username_key">
       <ObjectId>16398</ObjectId>
       <StateNumber>577</StateNumber>
       <ColNames>username</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="15067" parent="4735" name="person_pkey">
+    <key id="15066" parent="4735" name="person_pkey">
       <ObjectId>16397</ObjectId>
       <StateNumber>577</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>person_pkey</UnderlyingIndexName>
     </key>
-    <key id="15068" parent="4735" name="person_username_key">
+    <key id="15067" parent="4735" name="person_username_key">
       <ObjectId>16399</ObjectId>
       <StateNumber>577</StateNumber>
       <ColNames>username</ColNames>

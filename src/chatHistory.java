@@ -1,15 +1,15 @@
 public class chatHistory {
     private String usernamesend ;
     private String usernameresive ;
-    private String pmsend ;
+
     private String pmresive;
     private String date ;
 
 
-    public chatHistory(String usernamesend, String usernameresive, String pmsend, String pmresive, String date) {
+    public chatHistory(String usernamesend, String usernameresive, String pmresive, String date) {
         this.usernamesend = usernamesend;
         this.usernameresive = usernameresive;
-        this.pmsend = pmsend;
+
         this.pmresive = pmresive;
         this.date = date;
     }
@@ -30,13 +30,6 @@ public class chatHistory {
         this.usernameresive = usernameresive;
     }
 
-    public String getPmsend() {
-        return pmsend;
-    }
-
-    public void setPmsend(String pmsend) {
-        this.pmsend = pmsend;
-    }
 
     public String getPmresive() {
         return pmresive;

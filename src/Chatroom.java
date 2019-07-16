@@ -1,4 +1,5 @@
 import com.sun.corba.se.spi.activation.Server;
+import com.vdurmont.emoji.EmojiParser;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -14,13 +15,21 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
+import java.util.Date;
 import java.util.ResourceBundle;
 
 public class Chatroom implements Initializable {
+
+    String laugh = "\uD83D\uDE02";
+    String cry = "\uD83D\uDE2D";
+    String scared = "\uD83D\uDE31";
+    String mad = "\uD83D\uDE21";
+    String poker = "\uD83D\uDE10";
+    String heart = "❤";
+
     @FXML
     Button btnSend ;
-    @FXML
-    Button btnEmoji ;
+
     @FXML
     Button btnInformation ;
     @FXML
@@ -31,12 +40,55 @@ public class Chatroom implements Initializable {
     TextField txtfMessege ;
     @FXML
     TextArea txta ;
+    @FXML
+    Button btnL ;
+    @FXML
+    Button btnc ;
+    @FXML
+    Button btns ;
+    @FXML
+    Button btnm ;
+    @FXML
+    Button btnp;
+    @FXML
+    Button btnh;
     public static String TEXT ;
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        btnh.setOnAction(event -> {
+
+            txtfMessege.setText(EmojiParser.parseToUnicode(heart));
+        });
+        btnL.setOnAction(event -> {
+
+            txtfMessege.setText(EmojiParser.parseToUnicode(laugh));
+
+        });
+        btnc.setOnAction(event -> {
+
+            txtfMessege.setText(EmojiParser.parseToUnicode(cry));
+        });
+        btns.setOnAction(event -> {
+
+            txtfMessege.setText(EmojiParser.parseToUnicode(scared));
+        });
+        btnm.setOnAction(event -> {
+
+            txtfMessege.setText(EmojiParser.parseToUnicode(mad));
+        });
+        btnp.setOnAction(event -> {
+
+            txtfMessege.setText(EmojiParser.parseToUnicode(poker));
+        });
+
+
+
+
+        Date date=new Date();
+        String date1=date.toString();
         btnSetting.setOnAction(event -> {
             try {
                 client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("setting.fxml"))));
@@ -67,6 +119,9 @@ btnFile.setOnAction(event -> {
                 try {
                     TEXT = txtfMessege.getText();
                     client.dos.writeUTF(Login.username+":" + TEXT);
+                    chatHistoryDB chatHistoryDB = new chatHistoryDB();
+                    chatHistory chatHistory = new chatHistory(Login.username,Search.Search ,TEXT , date1);
+                    chatHistoryDB.addpm(chatHistory);
                     txta.appendText("you :"+TEXT + "\n");
 
                 } catch (Exception e) {

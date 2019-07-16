@@ -50,6 +50,7 @@ public class SingUp implements Initializable {
         String Email = txtfEmail.getText();
         String username = txtfUsername.getText();
         String pass = txtfPassword.getText();
+        pass=safely.encrypt(pass);
         User user = new User(username, pass, firstname, lastname, Email,Image);
         try {
             pesonDB pesonDB = new pesonDB();

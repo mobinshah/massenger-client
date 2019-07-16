@@ -2,27 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab2e3dd-0e8c-4a89-bf89-8e9700581028" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9aedb75d-8e85-44a7-aa34-b96aca61a659.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9aedb75d-8e85-44a7-aa34-b96aca61a659.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9aedb75d-8e85-44a7-aa34-b96aca61a659/storage_v2/_src_/database/massenger.lwfiCg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9aedb75d-8e85-44a7-aa34-b96aca61a659/storage_v2/_src_/database/massenger.lwfiCg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Chatroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Information.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Setting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/Search.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client/SingUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/SingUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/pesonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/pesonDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/setting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/SingUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/SingUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/chatHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/chatHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/chatHistoryDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/chatHistoryDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/chatroom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/information.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/information.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Information.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingUp.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SingUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chatHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chatHistoryDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatHistoryDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatroom.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pesonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pesonDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/setting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/information.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/information.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,61 +144,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chatHistoryDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="741">
+              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
+        <entry file="das://9aedb75d-8e85-44a7-aa34-b96aca61a659/database/massenger/schema/public/table/chathistory">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="6d53dafb-5b49-4a53-bd77-c82e766f8a0e">
+              <filtering />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="38">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -204,22 +174,65 @@
         <entry file="file://$PROJECT_DIR$/src/chatroom.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/setting.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/Information.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/information.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chatHistory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SingUp.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="89" column="28" lean-forward="true" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chatHistoryDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pesonDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -237,30 +250,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Information.java" />
         <option value="$PROJECT_DIR$/src/Search.java" />
-        <option value="$PROJECT_DIR$/src/SingUp.java" />
-        <option value="$PROJECT_DIR$/src/Login.java" />
         <option value="$PROJECT_DIR$/src/Setting.java" />
-        <option value="$PROJECT_DIR$/src/Chatroom.java" />
         <option value="$PROJECT_DIR$/src/setting.fxml" />
         <option value="$PROJECT_DIR$/src/client.java" />
-        <option value="$PROJECT_DIR$/src/chatroom.fxml" />
         <option value="$PROJECT_DIR$/src/login.fxml" />
         <option value="$PROJECT_DIR$/src/SingUp.fxml" />
+        <option value="$PROJECT_DIR$/src/Login.java" />
+        <option value="$PROJECT_DIR$/src/SingUp.java" />
+        <option value="$PROJECT_DIR$/src/chatHistory.java" />
+        <option value="$PROJECT_DIR$/src/chatHistoryDB.java" />
+        <option value="$PROJECT_DIR$/src/chatroom.fxml" />
+        <option value="$PROJECT_DIR$/src/information.fxml" />
+        <option value="$PROJECT_DIR$/src/Information.java" />
+        <option value="$PROJECT_DIR$/src/Chatroom.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="993" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="927" />
     <option name="height" value="1053" />
@@ -299,8 +307,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -353,17 +361,22 @@
       <workItem from="1563105433814" duration="1291000" />
       <workItem from="1563108677443" duration="550000" />
       <workItem from="1563112462032" duration="986000" />
+      <workItem from="1563120887547" duration="1395000" />
+      <workItem from="1563184770781" duration="1179000" />
+      <workItem from="1563208989273" duration="365000" />
+      <workItem from="1563255953000" duration="7917000" />
+      <workItem from="1563274937261" duration="888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21741000" />
+    <option name="totallyTimeSpent" value="33485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <frame x="67" y="27" width="927" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14648977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33182332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,8 +384,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10086768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,20 +405,13 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.13543394" />
+      <window_info anchor="right" id="Database" order="8" weight="0.14722537" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/java/jdk1.8.0_191/javafx-src.zip!/com/sun/glass/ui/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1843">
@@ -413,27 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9aedb75d-8e85-44a7-aa34-b96aca61a659/database/massenger/schema/public/table/person">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4dfb479c-dfdf-4db5-84aa-35d0fa385c90">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pesonDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://9aedb75d-8e85-44a7-aa34-b96aca61a659/database/massenger/schema/public/table/person" />
     <entry file="file://$PROJECT_DIR$/src/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -441,56 +427,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chatHistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chatHistoryDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chatroom.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -503,12 +446,119 @@
       <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/setting.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SingUp.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/safely.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9aedb75d-8e85-44a7-aa34-b96aca61a659/database/massenger/schema/public/table/chathistory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b9fc474a-ed88-42a8-be56-9923fd37dc0d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9aedb75d-8e85-44a7-aa34-b96aca61a659/database/massenger/schema/public/table/chathistory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="2be94b25-e15d-48d3-9b5d-9fe9b89be091">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chatroom.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/information.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chatHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chatHistoryDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pesonDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="89" column="28" lean-forward="true" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -571,7 +621,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib1</last-edited>
+          <last-edited>lib2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
