@@ -38,6 +38,7 @@ public class SingUp implements Initializable {
     @FXML
     Text txtpass ;
 
+    public static String Email ;
 
 
 
@@ -47,9 +48,10 @@ public class SingUp implements Initializable {
         String firstname = txtfFirstname.getText();
 //        System.out.println(firstname);
         String lastname = txtfLastname.getText();
-        String Email = txtfEmail.getText();
+        Email = txtfEmail.getText();
         String username = txtfUsername.getText();
         String pass = txtfPassword.getText();
+//        pass=safely.encrypt(pass);
         User user = new User(username, pass, firstname, lastname, Email,Image);
         try {
             pesonDB pesonDB = new pesonDB();
@@ -57,7 +59,7 @@ public class SingUp implements Initializable {
             ArrayList<String> person11 = new ArrayList<>();
 
             ArrayList<String> person1 = new ArrayList<>();
-            client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Search.fxml"))));
+            client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("rejesterEmail.fxml"))));
 
 //            person11 = pesonDB.getPerson(username);
 //            person1 = pesonDB.getPerson(pass);

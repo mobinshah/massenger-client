@@ -16,13 +16,13 @@ public class client extends Application{
     static Stage stage ;
     public static void main(String[] args) throws IOException {
 
-        Socket socket = new Socket("localhost",8088);
 
-//            Socket socket ;
+        Socket socket = new Socket("localhost",8088);
              dos =new DataOutputStream(socket.getOutputStream());
              dis = new java.io.DataInputStream(socket.getInputStream());
-        launch();
 
+
+        launch();
     }
 
     @Override
